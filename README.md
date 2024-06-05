@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+#Output
+![image](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/e0e98d6c-fa39-4b41-af16-ae9b35aefb2c)
+
+![image](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/5ffd2f6e-4ff9-4195-ae19-948adc40821f)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
