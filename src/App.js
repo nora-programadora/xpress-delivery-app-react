@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div>
-      <h1>Xpress Delivery App</h1>
+      <h1 className="title">Xpress Delivery App</h1>
       <Shipments
         shipments={shipments}
         onComplete={completeShipment}

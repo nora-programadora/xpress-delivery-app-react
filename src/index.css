@@ -1,4 +1,19 @@
 /* src/index.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5% 10%;
+}
+
+.title {
+  color: #1867a8;
+}
+
+.subtitle {
+  color: #0e6931;
+  margin: 1em 0;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -15,6 +30,6 @@ th {
   text-align: left;
 }
 
-button {
+button.button {
   margin-right: 5px;
 }

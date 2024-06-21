@@ -4,8 +4,8 @@ import React from "react";
 function FutureShipments({ futureShipments }) {
   return (
     <>
-      <h2>Tomorrow</h2>
-      <table width="60%" className="main-table">
+      <h2 className="subtitle">Tomorrow</h2>
+      <table width="60%" className="table table-success table-striped">
         <thead>
           <tr>
             <th width="70%">Name</th>

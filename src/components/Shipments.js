@@ -5,13 +5,17 @@ import { STATUSES, Couriers } from "../data";
 function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
   return (
     <>
-      <h2>Today</h2>
-      <table id="main-table" width="100%" className="main-table">
+      <h2 className="subtitle">Today Shipments</h2>
+      <table
+        id="main-table"
+        width="100%"
+        className="table-primary table-striped"
+      >
         <thead>
           <tr>
-            <th>Delivery Man</th>
-            <th>Max</th>
-            <th>Packages</th>
+            <th scope="col">Delivery Man</th>
+            <th scope="col">Max</th>
+            <th scope="col">Packages</th>
           </tr>
         </thead>
         <tbody>
@@ -20,7 +24,7 @@ function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
               key={shipment.pkgIndex}
               style={{
                 backgroundColor:
-                  shipment.status === STATUSES[2] ? "green" : "white",
+                  shipment.status === STATUSES[2] ? "#b3e7c7" : "white",
                 textDecoration:
                   shipment.status === STATUSES[2] ? "underline" : "none",
               }}
@@ -30,7 +34,7 @@ function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
                 {Couriers[shipment.courierIndex].maxPackages}
               </td>
               <td>
-                <table width="100%">
+                <table width="100%" className="table table-success">
                   <thead>
                     <tr>
                       <th width="35%">Name</th>
@@ -43,10 +47,16 @@ function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
                       <td>{shipment.name}</td>
                       <td align="center">{shipment.status}</td>
                       <td align="center">
-                        <button onClick={() => onComplete(shipment.pkgIndex)}>
+                        <button
+                          className="btn btn-outline-success button"
+                          onClick={() => onComplete(shipment.pkgIndex)}
+                        >
                           COMPLETE
                         </button>
-                        <button onClick={() => onDelay(shipment.pkgIndex)}>
+                        <button
+                          className="btn btn-outline-primary"
+                          onClick={() => onDelay(shipment.pkgIndex)}
+                        >
                           DELAY
                         </button>
                       </td>
@@ -58,7 +68,12 @@ function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
           ))}
         </tbody>
       </table>
-      <button onClick={assignPackages}>Assign</button>
+      <button
+        className="btn btn-outline-success button"
+        onClick={assignPackages}
+      >
+        Assign
+      </button>
     </>
   );
 }
