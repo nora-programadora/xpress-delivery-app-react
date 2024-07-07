@@ -1,8 +1,8 @@
 #Output
-![image](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/e0e98d6c-fa39-4b41-af16-ae9b35aefb2c)
+![Captura de pantalla 2024-07-07 143655](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/f8a9d637-6918-4b02-9052-b3fd509e417b)
 
-![image](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/5ffd2f6e-4ff9-4195-ae19-948adc40821f)
 
+![Captura de pantalla 2024-07-07 143722](https://github.com/nora-programadora/xpress-delivery-app-react/assets/43866226/bdae836e-5f2b-4950-a0b0-c25788eec2e9)
 
 ## Getting Started with Create React App
 
