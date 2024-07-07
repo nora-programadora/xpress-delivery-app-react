@@ -36,7 +36,7 @@ function Shipments({ shipments, onComplete, onDelay, assignPackages }) {
                 <td>{courier.name}</td>
                 <td align="center">{courier.maxPackages}</td>
                 <td>
-                  <table width="100%" className="table table-success">
+                  <table width="100%">
                     <thead>
                       <tr>
                         <th width="35%">Name</th>
